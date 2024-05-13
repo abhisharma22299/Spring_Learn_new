@@ -182,4 +182,7 @@ autowiring can be done in two type XML-no,byName,byType,constructor,autodetect :
 
 advantages automatic ,less code  diadvantages :- No control of programmer , it can't be used for primitive and String values.
 
-//@Qualifier Annotation  if we created two beans at a time then there is a ambiguity in the code error  	
+//@Qualifier Annotation  if we created two beans at a time then there is a ambiguity in the code error  
+
+// Stand alone collections 
+	
