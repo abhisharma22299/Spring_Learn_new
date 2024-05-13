@@ -1,0 +1,10 @@
+package com.springcore.collections;
+
+import java.util.List;
+
+public class Emp {
+	
+private String name;
+private List<String> phones;
+private set<String> set;
+}

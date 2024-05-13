@@ -1,0 +1,185 @@
+what is spring : Spring is a Dependency Injection framework to make java application loosely coupled (easy to change or modify )
+spring framework makes the easy development of javaEE application . It was developed by Rod Johnson in 2003
+
+dependency injeciton : In java if we want to use other class method in our class then we need to create object ob the class by using the new keyword for than region we use the dependency injection in dependeny injection we use @ Annotation and Xml method.
+
+(Spring MVC)ui layer                   (product Controller)
+
+(Spring Security)business/service layer     (product service) -> it create obj and inject to the product controller 
+
+
+ (spring JDBC , Spring ORM) data access Layer          (product Dao)  -> to take help of spring injection create obj of product dao and inject into the product servce layer 
+
+db
+
+
+
+
+
+
+
+Spring Modules -> spring  frameworl -> spring core -> core -> beans -> context -> spEl (Spring exprection language)
+(Inversion of Control) IOC
+
+ spring core and beans provide the depencdny intejction ,by this we can inject one class to another ,constructor injection 
+ 
+spring context inherit modules from the baens (it also have the facotry degin pattern )it also add some more things like internization,event propogation,resource loading 
+  and transpraent creation of context ,how to create context in servlet ,and it provide javaEE,javaJ2EE feature like EJB,jms ,and basic remoting 
+
+spel is very powerfull for carring exprection language and manipulate , exceptional language manipulate object and object graph  at the run time,object value can we put or get extension of expresion language use in jsp
+
+AOP(aspect orientation programming)   it allow to define method interseptor and define points cut for which we can or application decouple means the sperate the coding according to the need . intersepter means before any class 
+
+Aspect                
+instumentation    it provide instumentation class ,and class loader instrumentor server application    
+Messageing         
+
+
+Data Access/ Intergation layer ->
+jdbc it provide jdbc abstraction layer provides the need of sql query  
+JMS (java messaging service) produce and consume message 
+ORM it provide intergation layer it use to get other orm instrument (intergiate) Jpa
+OXM(object XML mapping)  it provide that support checked xml mapping (casster )
+
+web module 
+web , servlet , portlet ,webSocket 
+
+test module : (mock object )
+
+
+
+//
+Spring IOC container : it is pre define continer which come with spring,in jvm garbage collector come,just like jvm spring give ioc continer which is responsibel for some work to crete obj object hold,object inject in other object ,
+it is responsibe for from the creation and distruction of the object for doing work it just need to tell two things 1 beans(tell that how many beans it has to mange or pojo classes) 
+, xml configration file 
+
+-> Application Context :- it is inteface which reprsent ioc container , it is already has bean factory , it is interface which objet can't be created so we need to create its sub class object
+                          example :- ClasspathXMLApplicationContext (search xml cong in class path ) ,AnnotationConfigApplicationContext(search beans which use annotation )	,FileSystemXMLApplicationContext(search config file form file system)
+                            which give us ready to use obj 
+dependency injection can be done in 2 ways 1 using setter Injection , constructor injection to do injection we need to Configuraiton in xml file where we declare beans and its dependency 
+
+// data type(dependencies ) primitive -int, float char  ,long ,boolean , collective type : list ,set , map and properties ,Reference type 
+
+
+
+// creeate maven proj with the quick satrt
+// add dependcies
+//add spring maven core dependecy ,spring context 
+// create beans-java pojo 
+// creating configuration file -> config.xml
+// setter Injection
+// Main class ;	which can pull object and use 
+// spring 5 documentation pdf 
+
+
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:context="http://www.springframework.org/schema/context"
+xmlns:p="http://www.springframework.org/schema/p"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+ 
+// primitive type action 
+
+<bean class="com.springcore.Student" name="student1">
+<property name="studentId">
+<value>22344</value>
+</property>
+<property name="studentName">
+<value>Durgesh</value>
+</property>
+<property name="studentAddress">
+<value>Ram Ghat Halt</value>
+</property>
+
+</bean>
+
+<bean class="com.springcore.Student" name="student1">
+<property name="studentId" value="12" >
+<property name="studentName" value="as"/>
+<property name="studentAddress" value="SA"/></property>
+</bean>
+<bean  class="com.springcore.Student" name="student2" p:studentName="Bhupendar" p:studentId="121" p:studentAddress="bayripur" />
+
+// collection type
+<bean name="emp1" class="com.springcore.collections.Emp">
+<property name="name"  value="radhe"/>
+<property name="phones"  > 
+<list>
+<value>283920</value>
+<value>283920</value>
+<value>283920</value>
+<value>283920</value>
+<value>283920</value>
+<value>283920</value>
+<value>283920</value>
+<value>283920</value>
+<value>283920</value>
+
+</list>
+ </property>
+<property name="address"  >
+<set>
+<value>as</value>
+<value>as</value>
+<value>as</value>
+<value>as</value>
+<value></value>
+
+</set>
+</property>
+  
+   
+  <property name="cources">
+  <map>
+  <entry key="java" value="2months"/>
+  <entry key="phython" value="3months"/>
+  <entry key="c" value="1months"/>
+  
+  </map>
+  </property>
+ 
+ 
+ 
+</bean>
+</beans>
+
+// reference type
+
+
+<bean name="B" class="com.springcore.ref.B">
+<property name="y"  value="90"/>
+</bean>
+
+<bean name="A" class="com.springcore.ref.A">
+<property name="x"  value="12"/>
+<property name="ob">
+<ref bean="B"></ref>
+</property>
+</bean>
+
+// Life cycle Method
+Spring provide two important methods to every benas
+public void init();
+public void destory();we can change the name of these method but Signature must be same 
+
+create the obj -> obj value insitaliazion -> init() -> destory();
+// confg technique Xml , Spring Interface ,Annotation 	
+
+// using interface -implementing Bean ,LifeCycle using interfacaces initilalizing Bean Disposalbale Bean 
+
+// Post construct 
+<dependency>
+    <groupId>javax.annotation</groupId>
+    <artifactId>javax.annotation-api</artifactId>
+    <version>1.3.2</version>
+</dependency>
+
+// Autowiring in Spring 
+feature of spring framework in which spring container inject the dependecies automatically 
+autowiring can be done in two type XML-no,byName,byType,constructor,autodetect :,Annotations- @annotation can be used at setter method ,constructor,And also at constructor 
+
+advantages automatic ,less code  diadvantages :- No control of programmer , it can't be used for primitive and String values.
+
+//@Qualifier Annotation  if we created two beans at a time then there is a ambiguity in the code error  	

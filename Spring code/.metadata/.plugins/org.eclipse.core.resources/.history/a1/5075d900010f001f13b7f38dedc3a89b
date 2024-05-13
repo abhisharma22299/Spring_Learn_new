@@ -1,0 +1,13 @@
+package com.springcore;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class AppTest 
+{
+    public static void main(String[] args) {
+		System.out.println("hello");
+	ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("config.xml");
+	Student student = context.getBean("student1");
+
+    }
+}
