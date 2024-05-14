@@ -185,4 +185,6 @@ advantages automatic ,less code  diadvantages :- No control of programmer , it c
 //@Qualifier Annotation  if we created two beans at a time then there is a ambiguity in the code error  
 
 // Stand alone collections 
-	
+
+// Stereotype Annotations @Component and need to tell in configutaion file to scan the obj to create <context:component-scan base-package=" " />	
+// bean scope - conf in xml and by @ those get object

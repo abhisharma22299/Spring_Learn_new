@@ -1008,3 +1008,11 @@ org.eclipse.core.runtime.CoreException: Launch configuration App references non-
 2024-05-13 20:45:39,503 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\document\Spring framwork\Spring code\springcore\src\test\resources
 2024-05-13 20:45:41,623 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\document\Spring framwork\Spring code\springcore\src\main\resources
 2024-05-13 20:45:41,626 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\document\Spring framwork\Spring code\springcore\src\test\resources
+2024-05-13 21:00:53,240 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\document\Spring framwork\Spring code\springcore\src\main\resources
+2024-05-13 21:00:53,243 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\document\Spring framwork\Spring code\springcore\src\test\resources
+2024-05-13 21:00:55,294 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\document\Spring framwork\Spring code\springcore\src\main\resources
+2024-05-13 21:00:55,297 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\document\Spring framwork\Spring code\springcore\src\test\resources
+2024-05-13 21:01:26,095 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\document\Spring framwork\Spring code\springcore\src\main\resources
+2024-05-13 21:01:26,098 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\document\Spring framwork\Spring code\springcore\src\test\resources
+2024-05-13 21:01:45,085 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\document\Spring framwork\Spring code\springcore\src\main\resources
+2024-05-13 21:01:45,089 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\document\Spring framwork\Spring code\springcore\src\test\resources
