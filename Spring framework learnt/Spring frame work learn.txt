@@ -187,4 +187,5 @@ advantages automatic ,less code  diadvantages :- No control of programmer , it c
 // Stand alone collections 
 
 // Stereotype Annotations @Component and need to tell in configutaion file to scan the obj to create <context:component-scan base-package=" " />	
-// bean scope - conf in xml and by @ those get object
+// bean scope - conf in xml and by @ those get object:
+[singleton ,prototype] can be used  [request, session , gloalsession] it is for web specfic 
