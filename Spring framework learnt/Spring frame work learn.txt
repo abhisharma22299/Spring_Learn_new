@@ -188,4 +188,6 @@ advantages automatic ,less code  diadvantages :- No control of programmer , it c
 
 // Stereotype Annotations @Component and need to tell in configutaion file to scan the obj to create <context:component-scan base-package=" " />	
 // bean scope - conf in xml and by @ those get object:
-[singleton ,prototype] can be used  [request, session , gloalsession] it is for web specfic 
+[singleton - it is set automatic it create one obj can give back to the obj  ,prototype it give diff type at the time of call 
+it can be done by two way xml <bean class="" name=""scope="prototype"> and annotation @componetnt @Scope("prototype")
+] can be used  [request, session , gloalsession] it is for web specfic 
