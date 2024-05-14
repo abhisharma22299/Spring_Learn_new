@@ -1,4 +1,7 @@
+Date 4-may-2024
+
 what is spring : Spring is a Dependency Injection framework to make java application loosely coupled (easy to change or modify )
+
 spring framework makes the easy development of javaEE application . It was developed by Rod Johnson in 2003
 
 dependency injeciton : In java if we want to use other class method in our class then we need to create object ob the class by using the new keyword for than region we use the dependency injection in dependeny injection we use @ Annotation and Xml method.
@@ -189,5 +192,10 @@ advantages automatic ,less code  diadvantages :- No control of programmer , it c
 // Stereotype Annotations @Component and need to tell in configutaion file to scan the obj to create <context:component-scan base-package=" " />	
 // bean scope - conf in xml and by @ those get object:
 [singleton - it is set automatic it create one obj can give back to the obj  ,prototype it give diff type at the time of call 
-it can be done by two way xml <bean class="" name=""scope="prototype"> and annotation @componetnt @Scope("prototype")
+it can be done by two way xml <bean class="" name=""scope="prototype"> and annotation @componetnt @Scope("prototype") //.getHashCode()
 ] can be used  [request, session , gloalsession] it is for web specfic 
+
+// Spring Exprection Language (SpEL) 
+supports Parsing and executing expression with the helper of @Value annotations @Value("#{4+7}") static method:-T(class).method_name(param)
+ 	obj method: T(class).method_name	 variables: T(class).variable_naem : "#{new java.lang.String('abhi')}"
+
