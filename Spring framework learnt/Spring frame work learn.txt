@@ -210,6 +210,12 @@ and in main method AnnotationConfigApplicationContext(javaconfig.class);
 spring jdbc is a powerful mechanism to connect to the database and execute SQL quieries 
 java program   < java database moudle(JdbcTemplate) helps to connect with database once connect()  ->  DB
 
+-> problems faced in jdbc 
+    * we need to write a lot of code ,connection open ,statement ,execute ,connection close
+    * SqlException to handele it is checked exception 
+    * Repeating of all these codes from one to another databse logic is a time consuming task 
+
+
 
 
 	
