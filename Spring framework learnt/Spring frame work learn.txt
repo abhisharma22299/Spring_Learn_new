@@ -199,3 +199,21 @@ it can be done by two way xml <bean class="" name=""scope="prototype"> and annot
 supports Parsing and executing expression with the helper of @Value annotations @Value("#{4+7}") static method:-T(class).method_name(param)
  	obj method: T(class).method_name	 variables: T(class).variable_naem : "#{new java.lang.String('abhi')}"
 
+// how to remove the use confg.xml file it required to ,create a java class and @Configration @ComponentScan(basePackages="")
+
+and in main method AnnotationConfigApplicationContext(javaconfig.class);
+
+// to remove the @annotation of the @Component we need to do in javaConfig class  use @bean and it go to ioc conatiner and get te class obj
+
+// Spring JDBC
+
+spring jdbc is a powerful mechanism to connect to the database and execute SQL quieries 
+java program   < java database moudle(JdbcTemplate) helps to connect with database once connect()  ->  DB
+
+
+
+	
+
+
+
+

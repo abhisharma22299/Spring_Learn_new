@@ -1200,3 +1200,66 @@ org.eclipse.core.runtime.CoreException: Launch configuration App references non-
 2024-05-14 20:17:44,427 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\document\Spring framwork\Spring code\springcore\src\test\resources
 2024-05-14 20:18:28,333 [Worker-88: Launching test (1)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\document\Spring framwork\Spring code\springcore\src\main\resources
 2024-05-14 20:18:28,336 [Worker-88: Launching test (1)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\document\Spring framwork\Spring code\springcore\src\test\resources
+2024-05-15 01:28:28,570 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped oejs.Server@5e32e0bb{STOPPING}[12.0.3,sto=0]
+2024-05-15 01:28:28,593 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@2efdcd34{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2024-05-15 20:04:55,662 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-05-15 20:05:03,161 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.springcore:springcore:0.0.1-SNAPSHOT @ E:\document\Spring framwork\Spring code\springcore\pom.xml.
+2024-05-15 20:08:10,635 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\document\Spring framwork\Spring code\springcore\src\main\resources
+2024-05-15 20:08:10,650 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\document\Spring framwork\Spring code\springcore\src\test\resources
+2024-05-15 20:08:23,208 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\document\Spring framwork\Spring code\springcore\src\main\resources
+2024-05-15 20:08:23,218 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\document\Spring framwork\Spring code\springcore\src\test\resources
+2024-05-15 20:12:19,389 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\document\Spring framwork\Spring code\springcore\src\main\resources
+2024-05-15 20:12:19,400 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\document\Spring framwork\Spring code\springcore\src\test\resources
+2024-05-15 20:12:30,813 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\document\Spring framwork\Spring code\springcore\src\main\resources
+2024-05-15 20:12:30,818 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\document\Spring framwork\Spring code\springcore\src\test\resources
+2024-05-15 20:21:16,861 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-12.0.3; built: 2023-10-27T03:25:22.284Z; git: a873259fd5af141dedaa6c7fa8fe8fbdedce0d61; jvm 21.0.1+12-LTS-29
+2024-05-15 20:21:17,022 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started oeje8n.ContextHandler$CoreContextHandler@132e487b{/help,/help,b=null,a=AVAILABLE,h=oeje8n.ContextHandler$CoreContextHandler$CoreToNestedHandler@471d7972{STARTED}}
+2024-05-15 20:21:17,023 [Start Help Server] INFO  o.e.j.s.DefaultSessionIdManager - Session workerName=node0
+2024-05-15 20:21:17,123 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@1ae4637b{HTTP/1.1, (http/1.1)}{127.0.0.1:56827}
+2024-05-15 20:21:17,182 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started oejs.Server@6068e443{STARTING}[12.0.3,sto=0] @1082287ms
+2024-05-15 20:21:37,641 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\document\Spring framwork\Spring code\springcore\src\main\resources
+2024-05-15 20:21:37,646 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\document\Spring framwork\Spring code\springcore\src\test\resources
+2024-05-15 20:21:51,799 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\document\Spring framwork\Spring code\springcore\src\main\resources
+2024-05-15 20:21:51,806 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\document\Spring framwork\Spring code\springcore\src\test\resources
+2024-05-15 20:22:13,939 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\document\Spring framwork\Spring code\springcore\src\main\resources
+2024-05-15 20:22:13,943 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\document\Spring framwork\Spring code\springcore\src\test\resources
+2024-05-15 20:22:20,179 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\document\Spring framwork\Spring code\springcore\src\main\resources
+2024-05-15 20:22:20,184 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\document\Spring framwork\Spring code\springcore\src\test\resources
+2024-05-15 20:22:23,529 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\document\Spring framwork\Spring code\springcore\src\main\resources
+2024-05-15 20:22:23,534 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\document\Spring framwork\Spring code\springcore\src\test\resources
+2024-05-15 20:23:08,230 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\document\Spring framwork\Spring code\springcore\src\main\resources
+2024-05-15 20:23:08,234 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\document\Spring framwork\Spring code\springcore\src\test\resources
+2024-05-15 20:23:59,750 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\document\Spring framwork\Spring code\springcore\src\main\resources
+2024-05-15 20:23:59,755 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\document\Spring framwork\Spring code\springcore\src\test\resources
+2024-05-15 20:24:26,561 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\document\Spring framwork\Spring code\springcore\src\main\resources
+2024-05-15 20:24:26,565 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\document\Spring framwork\Spring code\springcore\src\test\resources
+2024-05-15 20:24:51,242 [Worker-22: Launching test (1)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\document\Spring framwork\Spring code\springcore\src\main\resources
+2024-05-15 20:24:51,247 [Worker-22: Launching test (1)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\document\Spring framwork\Spring code\springcore\src\test\resources
+2024-05-15 20:25:19,892 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\document\Spring framwork\Spring code\springcore\src\main\resources
+2024-05-15 20:25:19,896 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\document\Spring framwork\Spring code\springcore\src\test\resources
+2024-05-15 20:26:24,678 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\document\Spring framwork\Spring code\springcore\src\main\resources
+2024-05-15 20:26:24,682 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\document\Spring framwork\Spring code\springcore\src\test\resources
+2024-05-15 20:26:57,305 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\document\Spring framwork\Spring code\springcore\src\main\resources
+2024-05-15 20:26:57,309 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\document\Spring framwork\Spring code\springcore\src\test\resources
+2024-05-15 20:27:19,500 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\document\Spring framwork\Spring code\springcore\src\main\resources
+2024-05-15 20:27:19,505 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\document\Spring framwork\Spring code\springcore\src\test\resources
+2024-05-15 20:28:36,478 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\document\Spring framwork\Spring code\springcore\src\main\resources
+2024-05-15 20:28:36,483 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\document\Spring framwork\Spring code\springcore\src\test\resources
+2024-05-15 20:29:06,264 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\document\Spring framwork\Spring code\springcore\src\main\resources
+2024-05-15 20:29:06,268 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\document\Spring framwork\Spring code\springcore\src\test\resources
+2024-05-15 20:30:41,003 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\document\Spring framwork\Spring code\springcore\src\main\resources
+2024-05-15 20:30:41,007 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\document\Spring framwork\Spring code\springcore\src\test\resources
+2024-05-15 20:31:31,456 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\document\Spring framwork\Spring code\springcore\src\main\resources
+2024-05-15 20:31:31,461 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\document\Spring framwork\Spring code\springcore\src\test\resources
+2024-05-15 20:33:18,022 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\document\Spring framwork\Spring code\springcore\src\main\resources
+2024-05-15 20:33:18,026 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\document\Spring framwork\Spring code\springcore\src\test\resources
+2024-05-15 20:33:49,275 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\document\Spring framwork\Spring code\springcore\src\main\resources
+2024-05-15 20:33:49,279 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\document\Spring framwork\Spring code\springcore\src\test\resources
+2024-05-15 20:33:50,347 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\document\Spring framwork\Spring code\springcore\src\main\resources
+2024-05-15 20:33:50,352 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\document\Spring framwork\Spring code\springcore\src\test\resources
+2024-05-15 20:35:01,001 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\document\Spring framwork\Spring code\springcore\src\main\resources
+2024-05-15 20:35:01,005 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\document\Spring framwork\Spring code\springcore\src\test\resources
+2024-05-15 20:35:52,360 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\document\Spring framwork\Spring code\springcore\src\main\resources
+2024-05-15 20:35:52,365 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\document\Spring framwork\Spring code\springcore\src\test\resources
+2024-05-15 20:37:05,857 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\document\Spring framwork\Spring code\springcore\src\main\resources
+2024-05-15 20:37:05,861 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\document\Spring framwork\Spring code\springcore\src\test\resources
