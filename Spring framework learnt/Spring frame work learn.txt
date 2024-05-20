@@ -214,11 +214,64 @@ java program   < java database moudle(JdbcTemplate) helps to connect with databa
     * we need to write a lot of code ,connection open ,statement ,execute ,connection close
     * SqlException to handele it is checked exception 
     * Repeating of all these codes from one to another databse logic is a time consuming task 
+-> solution of Jdbc problem faced by spring jdbc
+   Spring JDBC provide class jdbc template which has all the important methods to perform operation with database.
+   
+jdbcTemplate extends datasource which implements DriverManagerDataSource driverClassName= url userName password 
+
+pom.xml
+
+<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+<dependency>
+    <groupId>mysql</groupId>
+    <artifactId>mysql-connector-java</artifactId>
+    <version>5.1.30</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.springframework/spring-jdbc -->
+<dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-jdbc</artifactId>
+    <version>5.3.34</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.springframework/spring-core -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-core</artifactId>
+			<version>5.3.34</version>
+		</dependency>
+
+		<!--
+		https://mvnrepository.com/artifact/org.springframework/spring-context -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+			<version>5.3.34</version>
+		</dependency>
+
+
+	<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+<dependency>
+    <groupId>mysql</groupId>
+    <artifactId>mysql-connector-java</artifactId>
+    <version>5.1.30</version>
+</dependency>
+
+// create database springjdbc and create table  
+// press ctl + shift +t
+
+// selecting data using Spring Jdbc
+  if you are expecting a single object 
+  public T queryForObject (String sql , RowMapper<T> rowMapper , Object args)
+  public List<T> query (String sql , RowMapper<T> rowMapper , )
+
+// row mapper it basic use is jdbc gives ResultSetObject to row mapper  and Row mapper covert the Class Object 	
+
+// AutoWiring in 		
 
 
 
-
-	
 
 
 
