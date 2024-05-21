@@ -1,8 +1,0 @@
-package com.springcore.collections;
-
-public class EmpTest {
-public static void main(String[] args) {
-	
-	//collectionconfig.xml
-}
-}

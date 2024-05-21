@@ -1,0 +1,9 @@
+// Spring ORM (object relation mapping ) with hibernate orm tool- (hiberante ,iBATIS,TopLink)
+
+// Advantage of using Spring ORM
+-> less coding is required
+-> Easy to test
+-> Better exceptional handling
+-> Integrated transcation management
+
+
