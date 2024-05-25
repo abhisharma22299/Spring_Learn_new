@@ -6,4 +6,17 @@
 -> Better exceptional handling
 -> Integrated transcation management
 
+// how to work with Spring ORM
 
+-> HibernateTemplate 
+ * save , Update , Insert , Get , LoadAll
+-> Dao mean (data access object)
+//
+-> ProductDao- > hibernaet -> SessionFactory (Interface) -> LocalSessionFactoryBean it needs (data source(( url ,username,password) , Hibernate Properties , AnnotatedClass)
+
+
+// Spring orm configuration 
+ ctr +shit +T
+
+
+// 

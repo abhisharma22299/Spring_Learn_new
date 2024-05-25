@@ -1,0 +1,22 @@
+
+// spring mvc ( Model view Controller ) : it is use to create web project 
+
+* A spring mvc is sub framework of spring Framework which is used to build a web appication  
+* It is build on the top of Servlet API
+* it follows the model-view-controller design pattern
+* it implements all the basic features of a core spring framework like Inversion of control, dependency Injection 
+
+// why spring MVC when we have jsp and servlet
+
+* seprate each role modal , view ,controller etc
+*  Powerful configuration 
+* It is sub frame work of spring framework . use of spring core features like IOC etc.
+* Rapid appication development 
+* Spring mvc is fleaxible ,easy to test and much features
+
+// MVC Design Pattern 
+
+
+
+
+

@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="java.security.DomainCombiner"/>
-    <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
-    <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
     <fullyQualifiedTypeName name="org.springframework.context.support.AbstractApplicationContext"/>
     <fullyQualifiedTypeName name="org.springframework.context.annotation.ImportBeanDefinitionRegistrar"/>
     <fullyQualifiedTypeName name="org.springframework.beans.factory.InitializingBean"/>
@@ -24,4 +22,13 @@
     <fullyQualifiedTypeName name="com.spring.jdbc.dao.StudentDao"/>
     <fullyQualifiedTypeName name="com.spring.jdbc.dao.StudentImpl"/>
     <fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
+    <fullyQualifiedTypeName name="org.hibernate.annotations.Entity"/>
+    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
+    <fullyQualifiedTypeName name="javax.persistence.Table"/>
+    <fullyQualifiedTypeName name="javax.persistence.Id"/>
+    <fullyQualifiedTypeName name="org.springframework.orm.hibernate5.HibernateTemplate"/>
+    <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+    <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+    <fullyQualifiedTypeName name="com.spring.orm.dao.StudentDao"/>
+    <fullyQualifiedTypeName name="com.spring.orm.entites.Student"/>
 </qualifiedTypeNameHistroy>

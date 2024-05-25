@@ -1,0 +1,4 @@
+// Apache tomcat setup
+go on download zip 64 file from the apache tomcat after extract the folder and  
+open the window in eclipse and prefernces -> server -> add -> server -> apache tomcat -> after select the directory og apache tomcat before bin 
+
