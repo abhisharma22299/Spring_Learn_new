@@ -17,6 +17,22 @@
 // MVC Design Pattern 
 
 
+// create a web app maven project and to solve the error we have to right click on the project ,go on bulid path after add library , Server runtime then select the server 
+
+// add dependencies Maven spring mvc 
+<!-- https://mvnrepository.com/artifact/org.springframework/spring-webmvc -->
+<dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-webmvc</artifactId>
+    <version>5.2.4.RELEASE</version>
+</dependency>
+
+// Spring MVC application creation steps 
+1 configure the dispatcher servlet in web.xml
+2 create Spring Configuration File 
+3 Configure view Resolver 
+4 create Controller 
+5 create a view to show(page)
 
 
 
