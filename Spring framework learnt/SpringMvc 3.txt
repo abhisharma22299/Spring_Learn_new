@@ -27,12 +27,37 @@
     <version>5.2.4.RELEASE</version>
 </dependency>
 
-// Spring MVC application creation steps 
+// Spring MVC application creation steps s
 1 configure the dispatcher servlet in web.xml
 2 create Spring Configuration File 
 3 Configure view Resolver 
 4 create Controller 
 5 create a view to show(page)
+
+
+
+// Sending Data from controller to view 
+
+it be send by two way Model addattribute(String key ,Object Value )  HttpServletRequest   object obj request.getAttribute("key");    , 
+
+ ModelAndView : addObject(String key , Object Value ), to use traverce the ${marks } you need to and the jstl maven dependency and add   <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+
+
+// Sending data from view to controller 
+-> HttpSession it can be also used to get the data from the view  
+@ModelAttribute : to get all the object at a one time  @RequestParam one object at a time
+
+// @RequestMapping Annotation use this annotation to map Urls such as /home onto an entire class or a particular handler method. Typically 
+                           the class-level annotation maps a specfic request path onto a form controller , with additional method-level annotaions narrowing the primmary mapping  for a specfic Http
+ Method ("GET","Post" ,etc) or an HTTP request parameter condition 	
+@RequestMapping(path="/home" , method=RequestMethod.GET) 
+// @ModelAttribute 
+
+// redirecting by two way redirect view and redirect prefix 0> httpServletResponse 
+prefix:  return "redirect:/enjoy"
+RedirectView redirecView =new RedirectView();
+redirectView.seturl("/enjoy");
+
 
 
 

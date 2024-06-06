@@ -7,6 +7,13 @@
 <title>Insert title here</title>
 </head>
 <body>
+<% 
+String name=(String)request.getAttribute("name");
+
+%>
+
+<h1> Name is <%=name%></h1>
+
 <h1>Views Index </h1>
 </body>
 </html>
