@@ -18,9 +18,8 @@ public class SearchController {
 	@RequestMapping("/search")
 	public RedirectView search(@RequestParam("querybox") String query) {
 		RedirectView redirectView = new RedirectView();
-String url="https://www.google.com/search?q=" + query;
+String url="https://www.google.com/search?q	=" + query;
 redirectView.setUrl(url);
 		return redirectView;
-
 	}
 }
